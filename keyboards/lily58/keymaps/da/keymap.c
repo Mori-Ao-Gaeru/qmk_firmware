@@ -94,7 +94,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   XXXXXXX, XXXXXXX, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D,                    KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_HOME, KC_END, \
   XXXXXXX, XXXXXXX, KC_ACL0, KC_ACL1, KC_ACL2, XXXXXXX, _______, _______,  KC_PLUS, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC, KC_BSLS, \
                              _______, _______, _______, _______, _______,  _______, _______, _______ \
-  )
+),
 /* ADJUST(LEFT:MOUSE  RIGHT:KEYPAD)
  * ,-----------------------------------------.                    ,-----------------------------------------.
  * |  ESC |      |      |      |      |      |                    |      |   7  |   8  |   9  |  /   | VOLUP|
@@ -115,7 +115,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   XXXXXXX, XXXXXXX, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D,                   XXXXXXX, KC_P1  , KC_P2  , KC_P3  , KC_PMNS, KC_PGUP	, \
   XXXXXXX, XXXXXXX, KC_ACL0, KC_ACL1, KC_ACL2, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_P0  , KC_PDOT, KC_PEQL, KC_PPLS, KC_PGDN,\
                              _______, _______, _______, _______, _______,  _______, _______, _______ \
-  )
+)
 };
 
 int RGB_current_mode;
